@@ -1,0 +1,18 @@
+﻿// Zero.CPPATLAPP.idl: Zero.CPPATLAPP 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 生成类型库(ZeroCPPATLAPP.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(336df9e4-6958-414f-afe1-9f9cb3b81f33),
+	version(1.0),
+]
+library ZeroCPPATLAPPLib
+{
+	importlib("stdole2.tlb");
+};
+
